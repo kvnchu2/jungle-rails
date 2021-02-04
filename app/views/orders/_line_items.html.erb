@@ -1,0 +1,10 @@
+<% @order.line_items.each do |item| %>
+<% @productname = Product.find(item.product_id)%>
+<h1><%= @productname.name %></h1>
+<%= image_tag @productname.image.url, class: 'main-img' %>
+<p><%= @productname.description %></p>
+<p>Quantity: <%= item.quantity %></p>
+<p>Line Item Total: $<%= Money.new(item.total_price_cents, 'USD') %> </p>
+<% end %>
+<p>Total Price of Order: $<%= Money.new(@order.total_cents, 'USD') %></p>
+<p>Email: <%= @order.email %>
