@@ -106,3 +106,23 @@ main section.products-show {
     color: #36454F;
   }
 }
+
+
+.sign-up-form {
+  display:flex;
+  flex-direction:column;
+
+  div {
+    padding-top: 8px;
+  }
+}
+
+.login-form {
+  display:flex;
+  flex-direction: column;
+
+  div{
+    padding-top: 8px;
+  }
+
+}
