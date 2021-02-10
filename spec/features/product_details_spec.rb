@@ -26,7 +26,7 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
     
     all('a[href="/products/1"]')[0].click
     expect(find('article.product-detail')).to have_content('Description')
-    save_and_open_screenshot
+    # save_and_open_screenshot
 
   end
 end
