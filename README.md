@@ -29,7 +29,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Screenshots
 
 Home page that displays all the products
-![home page] (https://github.com/kvnchu2/jungle-rails/blob/master/docs/home-page.jpeg?raw=true)
+![home page](https://github.com/kvnchu2/jungle-rails/blob/master/docs/home-page.jpeg?raw=true)
 
 Error message when user's cart is empty
 ![cart empty](https://github.com/kvnchu2/jungle-rails/blob/master/docs/cart-empty.jpeg?raw=true)
