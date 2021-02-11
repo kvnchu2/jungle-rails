@@ -25,3 +25,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+
+Home page that displays all the products
+![home page] (https://github.com/kvnchu2/jungle-rails/blob/master/docs/home-page.jpeg?raw=true)
+
+Error message when user's cart is empty
+![cart empty](https://github.com/kvnchu2/jungle-rails/blob/master/docs/cart-empty.jpeg?raw=true)
